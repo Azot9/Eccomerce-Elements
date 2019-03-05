@@ -1,0 +1,252 @@
+@media (max-width: 1200px) {
+	body{
+		width: 900px;
+	}
+	.logo{
+		width: 160px;
+		padding: 31px 15px;
+		font-size: 16px;
+	}
+	nav{
+	width: 460px;
+	height: 80px;
+	}
+	nav li{
+		width: 60px;
+		padding: 31px 10px;
+		font-size: 14px;
+	}
+	.img_glass{
+		padding-left: 30px;
+	}
+	.search{
+		width: 150px;
+	}
+	.rayban_left{
+		padding: 45px 40px;
+		width: 450px;
+		padding-bottom: 20px;
+	}
+	.find_more {
+	    margin-top: 25px;
+	}
+	.rayban_rigth{
+		width: 350px;
+	}
+	.red_logo{
+		padding-left: 245px;
+	}
+	.n_hide{
+	    padding-top: 330px;
+	    padding-left: 140px;
+	    font-size: 56px;
+	}
+	.best_sales{
+	float: left;
+	width: 300px;
+	height: 333.3333px;
+	background-color: #f3f3f3;
+	}
+	.main_photo{
+		width: 300px;
+		height: 200px;
+	}
+	.good_features{
+		width: 300px;
+		height: 100px;
+		padding-left: 20px; 
+	}
+	.good_features h3{
+		font-size: 16px;
+	}
+	.good_features p{
+		margin: 8px 0;
+	}
+	.add_to_basket{
+    	margin-left: 70px;
+	}
+	.statistic{
+		width: 560px;
+		height: 333.3333px;
+		margin-left: 40px;
+	}
+	.statistic_graph{
+		width: 530px;
+		height: 197.75px;
+		padding: 30px 15px;
+	}
+	.graph{
+		width: 530px;
+		height: 157.75px;
+	}
+	.graph_line{
+		width: 530px;
+	}
+	.week{
+		line-height: 24px;
+		margin: 12px 25px;
+	}
+	.statistic_numb{
+		width: 30%;
+		height: 70px;
+	}
+	.statistic_numb p{
+		font-size: 24px;
+		line-height: 21px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.vertical_line_numb{
+		float: left;
+		margin: 10px;
+		top: 15px;
+		width: 2px;
+		height: 55px;
+		background-color: #d8d8d8;
+	}
+	.shopping_bag{
+	width: 520px;
+	height: 340px;
+	}
+	.shopping_bag h2{
+		font-weight: bold;
+		margin: 0 0 15px 0;
+		font-size: 18px;
+	}
+	.good_in_bag{
+		height: 65px;
+		width: 100%;
+	}
+	.good_in_bag span{
+		padding:  24px 10px; 
+		font-size: 12px;
+	}
+	.good_in_bag a{
+		margin-left: 5px;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	.good_in_bag img{
+		width: 100px;
+		height: 65px;
+	}
+	.good_count_form{
+		margin: 15px 0 0 20px;
+		height: 25px;
+		width: 25px;
+		font-size: 16px;
+	}
+	.price{
+		float: right;
+		padding:  24px 0 24px 10px; 
+		font-size: 16px;
+	}
+	.bag_right{
+		float: right;
+	}
+	hr{
+		margin: 10px 0;
+		width: 520px;
+		color: #dddddd;
+	}
+	.map{
+		width: 300px;
+		height: 380px;
+		margin: 40px 0 0 40px;
+	}
+	iframe{
+		width: 300px;
+		height: 270px;
+	}
+	.map h5{
+		margin: 20px 0 0 20px;
+		font-size: 21px;
+	}
+	.map p{
+		margin: 10px 0 0 20px;
+		font-size: 12px;
+	}
+	footer{
+		width: 880px;
+		margin-bottom: 50px;
+	}
+}
+@media(max-width: 980px){
+	body{
+		width: 700px;
+	}
+	header {
+		margin-top: 40px;
+	}
+	.logo{
+		margin-right: 10px;;
+	}
+	nav{
+		display: none;
+	}
+	.search{
+		width: 300px;
+		float: left;
+	}
+	.search input{
+		display: block;
+		margin-left: 120px;
+		font-size: 16px;
+	}
+	.search + div{
+		display: none;
+	}
+	.img_glass{
+		display: none;
+	}
+	.img_menu{
+		display: block;
+		float: right;
+		height: 40px;
+		width: 40px;
+		margin: 20px 20px;
+	}
+	.rayban_left{
+		float: left;
+		padding: 25px 20px;
+		width: 300px;
+		padding-bottom: 20px;
+	}
+	.rayban_left > img {
+		width: 150px;
+	}
+	.first_screen h2{
+		padding-top: 0; 
+		font-weight: bold;
+	}
+	.first_screen p{
+		line-height: 20px;
+	}
+	.find_more{
+		margin-top: 10px;
+	}
+	.rayban_rigth{
+		width: 360px;
+	}
+	.red_logo{
+		padding-left: 220px;
+		padding-top: 25px;
+	}
+	.n_hide{
+		padding-top: 350px;
+		padding-left: 160px; 
+		font-size: 46px;
+	}
+	.best_sales, .statistic, .shopping_bag, .map{
+		float: none;
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	footer{
+		width: 680px;
+		margin-bottom: 50px;
+		margin-top: 40px;
+	}
+	
+}

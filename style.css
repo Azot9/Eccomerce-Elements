@@ -1,0 +1,387 @@
+/* Fonts */
+@font-face {
+    font-family: "Helvetica Neue"; /* Имя шрифта */
+    src: url(fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: "Alternate Gothic"; /* Имя шрифта */
+    src: url(fonts/Alternate-Gothic-No-2-BT_3209.ttf); /* Путь к файлу со шрифтом */
+}
+
+/* width from 1300 */
+body {
+	background-color: #ea714e;
+	width: 1160px;  
+	justify-content: center;
+	margin: 0 auto;
+	font-family: "Helvetica Neue";
+}
+header {
+	width: 100%;
+	height: 80px;
+	margin-top: 70px;
+	background-color: #fbfbfb;
+}
+.shadow{
+	box-shadow:  5px 5px 3px 0 rgb(0, 0, 0, 0.2);
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+.in_line{
+	float: left;
+}
+.logo {
+	width: 180px;
+	padding: 30px 20px;
+	font-size: 18px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+} 
+.vertical_line{
+	position: relative;
+	top: 15px;
+	width: 2px;
+	height: 50px;
+	background-color: #c5c5c5;
+}
+.in_right_line{
+	float: right;
+}
+nav{
+	width: 600px;
+	height: 80px;
+}
+nav ul{
+	margin: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+	width: 80px;
+	padding: 31px 10px;
+	font-size: 16px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+}
+li:hover{
+	background-color: #E1E0E7;
+
+}
+
+.search{
+	float: right;
+	width: 200px;
+	padding: 30px 10px;
+	margin-right: 10px;
+}
+.img_glass{
+	float: left;
+	height: 20px;
+	width: 20px;
+	padding: 30px 10px;
+	padding-left: 70px;
+}
+.img_menu{
+ display: none;
+}
+.search input{
+	border: none;
+	background-color: #fbfbfb;
+}
+.search input:focus, .search input:active{
+	outline: none;
+}
+
+/* Content */
+.first_screen{
+	width: 100%;  
+	height: 500px;
+	margin: 40px 0;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 813px 500px;
+	background-image: url("images/ray-ban-bg.png");
+}
+.rayban_left{
+	float: left;
+	padding: 45px 40px;
+	width: 500px;
+	padding-bottom: 20px;
+}
+.first_screen h2, p{
+	font-family: "Helvetica Neue";
+	color: #444444; 	
+}
+.first_screen h2{
+	padding-top: 20px; 
+	font-weight: bold;
+}
+.first_screen p{
+	line-height: 26px;
+}
+.find_more{
+	float: left;
+	width: 150px;
+	height: 20px;
+	background-color: #66af73;
+	border-radius: 3px;
+	color: white;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	padding: 10px 0;
+}
+.rayban_rigth{
+	float: left;
+	width: 500px;
+	height: 500px;
+}
+.red_logo{
+	position: relative;
+	display: block;
+	padding-left: 400px;
+	padding-top: 40px;
+}
+.n_hide{
+	position: relative;
+	padding-top: 310px;
+	padding-left: 250px; 
+	font-size: 68px;
+	color: white;
+	font-family: "Alternate Gothic";
+}
+.best_sales{
+	float: left;
+	width: 360px;
+	height: 400px;
+	background-color: #f3f3f3;
+}
+.main_image{
+	width: 360px;
+	height: 240px;
+}
+.additional_image{
+	position: relative;
+	float: right;
+	top: -80px;
+	width: 80px;
+	height: 80px;
+}
+.good_features{
+	width: 360px;
+	height: 160px;
+	padding-left: 30px; 
+}
+.good_features h3{
+	font-size: 21px;
+	line-height: 12px; 
+	color: #444444;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+}
+.good_features p{
+	font-size: 12px;
+	line-height: 12px; 
+	font-family: "Helvetica Neue";
+}
+.good_price{
+	float: left;
+	font-size: 28px;
+	color: #444444;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+}
+.add_to_basket{
+	float: left;
+	width: 110px;
+	height: 10px;
+	margin-left: 100px;
+	padding: 10px 0; 
+	background-color: #7bb6ce;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	color: #ffffff;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	text-align: center;
+}
+.statistic{
+	float: left;
+	width: 760px;
+	height: 400px;
+	margin-left: 40px;
+	background-color: #f3f3f3;
+}
+.statistic_graph{
+	width: 710px;
+	height: 200px;
+	padding: 50px 25px;
+	background-color: #febf57;
+	line-height: 0px;
+}
+.week{
+	line-height: 24px;
+	margin: 12px 38px;
+	float: left;
+	font-size: 12px;
+	color: #b0752a;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+}
+.statistic_numb{
+	width: 31%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	color: #444444;
+	font-weight: bold;
+}
+.statistic_numb p{
+	font-size: 30px;
+	line-height: 21px;
+	color: #444444;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.vertical_line_numb{
+	float: left;
+	margin: 10px;
+	top: 15px;
+	width: 2px;
+	height: 80px;
+	background-color: #d8d8d8;
+}
+.shopping_bag{
+	float: left;
+	width: 720px;
+	height: 360px;
+	padding: 20px;
+	background-color: #f3f3f3;
+	margin: 40px 0;
+}
+.shopping_bag h2{
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+.good_in_bag{
+	height: 65px;
+	width: 100%;
+	color: #444444;
+}
+.good_in_bag span{
+	display: block;
+	float: left;
+	padding:  24px 20px; 
+	color: #444444;
+}
+.good_in_bag a{
+	margin-left: 5px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #65a0b8;
+}
+.good_in_bag img{
+	float: left;
+	width: 100px;
+	height: 65px;
+}
+.good_count_form{
+	margin: 15px 0 0 60px;
+	float: right;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+.price{
+	float: right;
+	padding:  24px 0 24px 20px; 
+	font-size: 21px;
+	color: #444444;
+	font-weight: bold;
+	text-align: right;
+}
+.bag_right{
+	float: right;
+}
+hr{
+	margin: 10px 0;
+	width: 720px;
+	color: #dddddd;
+}
+.shopping_bag p{
+	float: left;
+	font-size: 24px;
+	color: #444444;
+	font-weight: bold;
+}
+.checkout{
+	float: right;
+	clear: right;
+    width: 110px;
+    height: 14px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 6px 0;
+    background-color: #f19b13;
+    border-radius: 3px;
+    color: white;
+	font-size: 12px;
+	line-height: 18px;
+	color: #444444;
+	font-weight: bold;
+    text-align: center;
+}
+.map{
+	float: left;
+	width: 360px;
+	height: 400px;
+	background-color: #f3f3f3;
+	margin: 40px 0 0 40px;
+	color: #444444;
+}
+iframe{
+	width: 360px;
+	height: 330px;
+}
+.map h5{
+	margin: 10px 0 0 20px;
+	font-size: 21px;
+}
+.map p{
+	margin: 0 0 0 20px;
+	font-size: 12px;
+}
+
+/* Footer */
+
+footer{
+	float: left;
+	width: 1140px;
+	height: 50px;
+	margin-bottom: 70px;
+	padding-right: 20px;
+	background-color: #fbfbfb;
+}
+.footer_logo{
+	margin: 15px 20px;
+	color: #444444;
+	float: left;
+}
+.footer_logo a{
+	color: #444444;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+footer img{
+	float: right;
+	margin: 16px 10px;
+
+}
